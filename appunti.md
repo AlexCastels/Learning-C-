@@ -1,3 +1,45 @@
+## Indice
+1. [Introduzione](#introduzione)
+2. [Tipizzazione](#tipizzazione)
+3. [Variabili](#variabili)
+4. [Casting](#casting-conversione)
+5. [Manipolazione stringhe](#manipolazione-stringhe)
+6. [Metodi stringhe](#metodi-stringhe)
+7. [Manipolazione numeri](#manipolazione-numeri)
+8. [Input utenti](#Input-utenti-console)
+9. [Eccezioni](#eccezioni)
+10. [Operatori Logici](#Operatori-Logici)
+11. [IF/ELSE](#Costrutti-IF--ELSE--ELSE-IF)
+12. [Operatore ternario](#Operatore-Ternario )
+13. [Switch case](#Switch-case)
+14. [Loop while/dowhile](#Loop-While--dowhile)
+15. [For e ForEach](#Ciclo-For-e-Foreach)
+16. [Break e continue](#Break-e-Continue)
+17. [Overloading Method](#Overloading-Method)
+18. [Array](#Array-in-C)
+19. [Matrici](#Matrici---Array-Multidimensionali)
+20. [Matrici Irregolari](#Matrici-Irregolari)
+21. [ArrayList](#ArrayList)
+22. [List](#LIST)
+23. [Hashtable](#Hashtable)
+24. [Dictionary](#Dictionary-Dict)
+25. [Stack](#Stack)
+26. [Queue (CHIU' | CODA)](#Queue)
+27. [OOP - Object Oriented Programming](#OOP---Object-Oriented-Programming)
+28. [Constructor](#Constructor)
+29. [Overloading constructor](#overloading-constructor-sovraccarico-di-costruttori)
+30. [Getter & Setter](#getter--setter)
+31. [KeyWord STATIC](#KeyWord-STATIC)
+32. [Estendere classi](#Estendere-classi-extends)
+33. [VIRTUAL , OVERRIDE , SEALED](#VIRTUAL--OVERRIDE--SEALED)
+34. [Interfacce](#INTERFACCE)
+35. [Polimorfismo](#POLIMORFISMO)
+36. [Classi Astratte](#CLASSI-ASTRATTE)
+37. [Modificatori di accesso](#MODIFICATORI-DI-ACCESSO)
+38. [Enum](#ENUMERATOR---ENUM)
+39. [DateTime](#DATETIME)
+40. [Nullable - Valori Opzionali](#NULLABLE---VALORI-OPZIONALI)
+
 ***
 
 # Appunti C#
@@ -57,7 +99,7 @@ Esistono sempre let const e var, dove let non viene dichiarato, ma const si, es:
 
 ***
 
-# Casting - Conversione
+# Casting-Conversione
 
 Ci sono 3 tipo di casting:
 
@@ -595,7 +637,9 @@ Sono disponibili dei metodi:
 
 l'iterazione viene fatta in modo normale, l'ordinamento sarà dall'ultimo al primo, l'esempio è come se fosse un `mazzo di carte`.
 
-# Queue (CHIU' | CODA)
+# Queue
+
+(CHIU' | CODA)
 
 Altra collection generica come gli stack ma con un ragionamento al contrario `First in first out FIFO => la prima dentro è la prima fuori`
 
@@ -646,7 +690,9 @@ tramite `this` accediamo alle proprietà e metodi appartenenti all'istanza della
 
 Nell'esempio il metodo Jump accetta un parametro con lo stesso nome della proprietà, ma noi vogliamo utilizzare la proprietà della classe accedendo con .this
 
-## Constructor(){} - public Class(){}
+
+## Constructor
+- Constructor(){} - public Class(){}
 
 Il costruttore si occupa di popolare le nostre proprietà nel momento in cui si istanzia una Classe (quando si crea un nuovo obj con quella classe).
 
@@ -816,7 +862,9 @@ Quindi con `public Classe : ClasseEstesa` possiamo estendere una classe ad un al
 
 I metodi vengono ereditati direttamente senza essere specificati. Per importarli dentro la classe possiamo accedervi tramite `base.Metodo()`
 
-# VIRTUAL , OVERRIDE , SEALED (Particolari di C#)
+# VIRTUAL , OVERRIDE , SEALED
+
+-  (Particolari di C#)
 
 Possiamom utilizzare `override` su metodi ereditati da altre classi che sono `virtual` per poter sovrasciverli e renderli personalizzati per classi.
 
